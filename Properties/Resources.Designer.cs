@@ -87,5 +87,23 @@ namespace GlobalizationDemo.Properties {
                 return ResourceManager.GetString("lblSelectedLanguage", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        internal static string strPassword {
+            get {
+                return ResourceManager.GetString("strPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User Name.
+        /// </summary>
+        internal static string strUserName {
+            get {
+                return ResourceManager.GetString("strUserName", resourceCulture);
+            }
+        }
     }
 }

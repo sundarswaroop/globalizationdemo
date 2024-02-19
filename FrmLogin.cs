@@ -33,7 +33,11 @@ namespace GlobalizationDemo
         {
             Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(selectedLanguage);
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(selectedLanguage);
+
             label1.Text = Resources.lblSelectedLanguage;
+
+            lblUserName.Text = Resources.strUserName;
+            lblPassword.Text = Resources.strPassword;
         }
 
         private void rbtn_CheckedChanged(object sender, EventArgs e)

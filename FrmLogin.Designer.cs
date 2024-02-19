@@ -35,6 +35,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.rbtnTelugu = new System.Windows.Forms.RadioButton();
             this.btnApply = new System.Windows.Forms.Button();
+            this.lblUserName = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnLaunch
@@ -118,12 +122,50 @@
             this.btnApply.UseVisualStyleBackColor = true;
             this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
             // 
+            // lblUserName
+            // 
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName.Location = new System.Drawing.Point(21, 230);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(79, 17);
+            this.lblUserName.TabIndex = 6;
+            this.lblUserName.Text = "User Name";
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Location = new System.Drawing.Point(21, 285);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(69, 17);
+            this.lblPassword.TabIndex = 6;
+            this.lblPassword.Text = "Password";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(203, 230);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 9;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(203, 285);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 9;
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 268);
+            this.ClientSize = new System.Drawing.Size(401, 388);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.rbtnTelugu);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.lblUserName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnApply);
             this.Controls.Add(this.btnLaunch);
@@ -148,6 +190,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton rbtnTelugu;
         private System.Windows.Forms.Button btnApply;
+        private System.Windows.Forms.Label lblUserName;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

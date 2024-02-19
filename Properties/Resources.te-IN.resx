@@ -123,4 +123,10 @@
   <data name="lblSelectedLanguage" xml:space="preserve">
     <value>ఎంచుకున్న భాష తెలుగు.</value>
   </data>
+  <data name="strPassword" xml:space="preserve">
+    <value>పాస్వర్డ్</value>
+  </data>
+  <data name="strUserName" xml:space="preserve">
+    <value>వినియోగదారు పేరు</value>
+  </data>
 </root>
